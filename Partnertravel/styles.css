@@ -1,0 +1,41 @@
+body {
+  background-image: url(sky1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-inner, .item, img {
+  margin: 0 auto;
+}
+.carousel-caption{
+  color: orange;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron{
+  background: rgba(255, 165, 0, 0.2);
+}
+.head{
+  display: none;
+}
+.row{
+  color: white;
+}
+
+
+@media (max-width: 600px){
+  .jumbotron{
+    display: none;
+  }
+  .carousel-caption{
+    display: none;
+  }
+  .head{
+    display: block;
+  }
+}
+@media (max-width: 990px){
+  .row{
+    color: #00cc00;
+  }
+}
