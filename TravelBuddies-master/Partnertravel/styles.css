@@ -86,3 +86,7 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+#Submit{
+  float: right;
+}
