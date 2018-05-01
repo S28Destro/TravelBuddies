@@ -90,3 +90,9 @@ a:active {
 #Submit{
   float: right;
 }
+#regist{
+	margin-top: 5px;
+	background-color: #ffbd54;
+	border-color: black;
+	border-style: groove;
+}
